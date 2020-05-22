@@ -3,7 +3,6 @@
   text-align: center;
   background-color: darkblue;
   display: flex;
-
 }
 
 .block {
@@ -38,12 +37,17 @@
   color: red;
 }
 
-.conteiner {
+.container {
   border-radius: 3px;
   display: flex;
   justify-content: space-around;
 }
 
+.button {
+  padding: 10px 20px;
+}
+
 .reset {
+  padding: 10px 20px;
   opacity: 0.2;
 }

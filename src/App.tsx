@@ -12,7 +12,6 @@ function App() {
         }
         setCount(count + 1)
     };
-
     let reset = () => setCount(0);
 
     return (

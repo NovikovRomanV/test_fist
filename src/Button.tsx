@@ -8,9 +8,9 @@ type PropsType = {
 
 function Button(props: PropsType) {
     return (
-        <div className="conteiner">
-            <button className="inc" onClick={props.increment}>INC</button>
-            <button className={props.count>=1 ? "": "reset"} onClick={props.reset}>RESET</button>
+        <div className="container">
+            <button className="button" onClick={props.increment}>INC</button>
+            <button className={props.count>=1 ? "button": "reset"} onClick={props.reset}>RESET</button>
         </div>
     )
 }

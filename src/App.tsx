@@ -13,8 +13,8 @@ function App() {
         setCount(count + 1)
     };
 
-
     let reset = () => setCount(0);
+
     return (
         <div className="App">
             <div className="block">
